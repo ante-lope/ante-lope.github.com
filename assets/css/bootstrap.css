@@ -346,9 +346,35 @@ span.company_name {
   font-weight: bold;
   display: inline;
 }
-.slash {
-  color: #f89406;
+
+#slash {
+position: absolute;
 }
+
+.line {width: 20.4213562373095px;
+      top: 16px;
+      -webkit-transform: rotate(-1.1rad);
+      position: absolute;
+      height:0px;
+      border-width: 2px 0px 0px 0px;
+      border-style: solid;
+      border-color: #ff9000;
+}
+
+.linetwo {width: 20.4213562373095px;
+      top: 16px;
+      -webkit-transform: rotate(-1.1rad);
+      position: absolute;
+      height: 0px;
+      border-width: 2px 0px 0px 0px;
+      border-style: solid;
+      border-color: #ff9000;
+      margin-left: 8px;
+}
+
+
+
+
 p {
   margin: 0 0 9px;
 }
@@ -393,6 +419,7 @@ h1 small {
 h2 {
   font-size: 24px;
   line-height: 36px;
+  margin-left: 30px;
 }
 h2 small {
   font-size: 18px;
@@ -4257,4 +4284,44 @@ a.badge:hover {
 }
 .invisible {
   visibility: hidden;
+}
+
+[class^="image-"],
+[class*=" image-"] {
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 44px;
+  background-image: url("../img/glyphicons/Untitled-1.png");
+  background-repeat: no-repeat;
+}
+
+.image-consulting{
+	background-position: 0 0;
+	float: left;
+    margin: 7px 8px 0 0;
+    opacity: .8;
+}
+
+.image-mobile{
+	background-position: -55px 0;
+	float: left;
+    margin: 7px 8px 0 0;
+    opacity: .8;
+}
+
+.image-shield{
+	background-position: -106px 0;
+	float: left;
+    margin: 7px 8px 0 0;
+    opacity: .8;
+}
+
+.image-web{
+	background-position: -166px 0;
+	float: left;
+    margin: 7px 8px 0 0;
+    opacity: .8;
 }
